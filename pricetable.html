@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&
+            display=swap" rel="stylesheet">
+    <title>Schedule</title>
+</head>
+
+<style>
+    body {
+        background-color: seashell;
+        font-family: 'Baloo Bhai';
+    }
+    
+    .ptable {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        font-family: 'Baloo Bhai';
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    th,
+    td {
+        padding: 6px 8px;
+    }
+    
+    th {
+        background: seashell;
+    }
+    
+    tr:nth-child(even) {
+        background-color: plum;
+    }
+    
+    tr:nth-child(odd) {
+        background-color: mediumpurple;
+    }
+    
+    .service1 {
+        text-align: center;
+        width: 1040px;
+        background-color: rgba(34, 123, 206, 0.2);
+        border-radius: 2rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 20px;
+    }
+    
+    .service1 table {
+        text-align: center;
+        width: 1000px;
+        margin: 30px;
+    }
+    
+    .service2 {
+        text-align: center;
+        width: 1040px;
+        background-color: rgba(34, 123, 206, 0.2);
+        border-radius: 2rem;
+        margin: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .service2 table {
+        text-align: center;
+        width: 1000px;
+        margin: 30px;
+    }
+    
+    .service3 {
+        text-align: center;
+        width: 1040px;
+        background-color: rgba(34, 123, 206, 0.2);
+        border-radius: 2rem;
+        margin: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .service3 table {
+        text-align: center;
+        width: 1000px;
+        margin: 30px;
+    }
+    
+    .tn {
+        text-decoration: underline;
+        color: orange;
+    }
+    
+    span {
+        color: red;
+    }
+</style>
+
+<body>
+    <div class="ptable">
+        <div class="tn">Time Table for Your Training &nbsp;<span>(Sunday
+                    OFF)</span></div>
+        <div class="service1">
+            <h2>Personal Training</h2>
+            <table>
+                <thead>
+                    <th>Slot No.</th>
+                    <th>Timing</th>
+                    <th>Seats Available</th>
+                </thead>
+                <tr>
+                    <td>1.</td>
+                    <td>6:00am - 7:00am</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>7:00am - 8:00am</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>8:00am - 9:00am</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>4:00pm - 5:00pm</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>5:00pm - 6:00pm</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>6:00pm - 7:00pm</td>
+                    <td>10</td>
+                </tr>
+            </table>
+        </div>
+        <div class="service2">
+            <h2>Group Training</h2>
+            <table>
+                <thead>
+                    <th>Slot No.</th>
+                    <th>Timing</th>
+                    <th>Seats Available</th>
+                </thead>
+                <tr>
+                    <td>1.</td>
+                    <td>6:00am - 7:00am</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>7:00am - 8:00am</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>8:00am - 9:00am</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>4:00pm - 5:00pm</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>5:00pm - 6:00pm</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>6:00pm - 7:00pm</td>
+                    <td>30</td>
+                </tr>
+            </table>
+        </div>
+        <div class="service3">
+            <h2>Yoga Class</h2>
+            <table>
+                <thead>
+                    <th>Slot No.</th>
+                    <th>Timing</th>
+                    <th>Seats Available</th>
+                </thead>
+                <tr>
+                    <td>1.</td>
+                    <td>6:00am - 7:00am</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>7:00am - 8:00am</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>8:00am - 9:00am</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>4:00pm - 5:00pm</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>5:00pm - 6:00pm</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>6:00pm - 7:00pm</td>
+                    <td>50</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
